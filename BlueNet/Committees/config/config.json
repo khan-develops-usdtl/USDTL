@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "wp-committees-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpCommittees/WpCommitteesWebPart.js",
+          "manifest": "./src/webparts/wpCommittees/WpCommitteesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WpCommitteesWebPartStrings": "lib/webparts/wpCommittees/loc/{locale}.js"
+  }
+}

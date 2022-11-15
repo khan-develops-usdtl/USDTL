@@ -1,0 +1,87 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.event {
+    .heading {
+        color: #1347a4;
+        padding: 0.625em 0.375em;
+        font-weight: 700;
+        font-size: medium;
+        border-bottom: 0.0625em solid #1347a4;
+        margin-bottom: 0.625em;
+    }
+    .container {
+        height: 24em;
+        padding: 0 0.5em;
+        overflow-y: auto;
+    }
+    .gridContainer {
+        padding: 0.5em 0;
+        border-bottom: 2px solid #e1e1e1;
+    }
+    .gridContainer:last-child {
+        border-bottom: 0px;
+    }
+    .gridItemDate {
+        display: grid;
+        place-items: center;
+    }
+    .gridItemContent {
+        display: grid;
+        align-items: center;
+    }
+    .eventLink:link, .eventLink:visited {
+        background-color: white;
+        color: #1347a4;
+        font-weight: 700;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    .eventLink:hover, .eventLink:active {
+        background-color: #1347a4;
+        color: white;
+    }
+    .eventLinkBox {
+        cursor: pointer;
+    }
+    .eventLink {
+        text-align: center;
+    }
+    .currentEventDate {
+        margin-top: 0px;
+        margin-bottom: 0px !important;
+        font-weight: 700;
+        color: #1347a4 !important;
+        font-size: 1em;
+    }
+
+    .currentEventMonth {
+        color: #000;
+        text-transform: uppercase;
+        margin: 0px !important;
+        font-weight: bold;
+    }
+
+    .currentEventDescription {
+        text-align: left;
+        font-size: 0.8em;
+    }
+
+    .currentEventTitle {
+        color: #000;
+        margin: 0px !important;
+        font-weight: bold;
+    }
+
+    .eventDetailTitle {
+        color: #000;
+        margin-bottom: 5px !important;
+        font-weight: bold;
+        border-bottom: 2px solid #000;
+    }
+    .link {
+        text-align: center;
+    }
+  
+}

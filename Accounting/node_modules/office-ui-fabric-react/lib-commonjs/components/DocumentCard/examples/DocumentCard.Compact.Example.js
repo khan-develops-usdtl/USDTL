@@ -1,0 +1,121 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var React = require("react");
+var DocumentCard_1 = require("office-ui-fabric-react/lib/DocumentCard");
+var Stack_1 = require("office-ui-fabric-react/lib/Stack");
+var Styling_1 = require("office-ui-fabric-react/lib/Styling");
+var TestImages_1 = require("../../../common/TestImages");
+var people = [
+    { name: 'Annie Lindqvist', profileImageSrc: TestImages_1.TestImages.personaFemale },
+    { name: 'Roko Kolar', profileImageSrc: '', initials: 'RK' },
+    { name: 'Aaron Reid', profileImageSrc: TestImages_1.TestImages.personaMale },
+    { name: 'Christian Bergqvist', profileImageSrc: '', initials: 'CB' }
+];
+var DocumentCardCompactExample = /** @class */ (function (_super) {
+    tslib_1.__extends(DocumentCardCompactExample, _super);
+    function DocumentCardCompactExample() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    DocumentCardCompactExample.prototype.render = function () {
+        var previewProps = {
+            getOverflowDocumentCountText: function (overflowCount) { return "+" + overflowCount + " more"; },
+            previewImages: [
+                {
+                    name: 'Revenue stream proposal fiscal year 2016 version02.pptx',
+                    linkProps: {
+                        href: 'http://bing.com',
+                        target: '_blank'
+                    },
+                    previewImageSrc: TestImages_1.TestImages.documentPreview,
+                    iconSrc: TestImages_1.TestImages.iconPpt,
+                    width: 144
+                },
+                {
+                    name: 'New Contoso Collaboration for Conference Presentation Draft',
+                    linkProps: {
+                        href: 'http://bing.com',
+                        target: '_blank'
+                    },
+                    previewImageSrc: TestImages_1.TestImages.documentPreviewTwo,
+                    iconSrc: TestImages_1.TestImages.iconPpt,
+                    width: 144
+                },
+                {
+                    name: 'Spec Sheet for design',
+                    linkProps: {
+                        href: 'http://bing.com',
+                        target: '_blank'
+                    },
+                    previewImageSrc: TestImages_1.TestImages.documentPreviewThree,
+                    iconSrc: TestImages_1.TestImages.iconPpt,
+                    width: 144
+                },
+                {
+                    name: 'Contoso Marketing Presentation',
+                    linkProps: {
+                        href: 'http://bing.com',
+                        target: '_blank'
+                    },
+                    previewImageSrc: TestImages_1.TestImages.documentPreview,
+                    iconSrc: TestImages_1.TestImages.iconPpt,
+                    width: 144
+                }
+            ]
+        };
+        var theme = Styling_1.getTheme();
+        var previewPropsUsingIcon = {
+            previewImages: [
+                {
+                    previewIconProps: { iconName: 'OpenFile', styles: { root: { fontSize: 42, color: theme.palette.white } } },
+                    width: 144
+                }
+            ],
+            styles: { previewIcon: { backgroundColor: theme.palette.themePrimary } }
+        };
+        var previewOutlookUsingIcon = {
+            previewImages: [
+                {
+                    previewIconProps: {
+                        iconName: 'OutlookLogo',
+                        styles: {
+                            root: {
+                                fontSize: 42,
+                                color: '#0078d7',
+                                backgroundColor: theme.palette.neutralLighterAlt
+                            }
+                        }
+                    },
+                    width: 144
+                }
+            ],
+            styles: {
+                previewIcon: { backgroundColor: theme.palette.neutralLighterAlt }
+            }
+        };
+        return (React.createElement(Stack_1.Stack, { gap: 20 },
+            React.createElement(DocumentCard_1.DocumentCard, { type: DocumentCard_1.DocumentCardType.compact, onClickHref: "http://bing.com" },
+                React.createElement(DocumentCard_1.DocumentCardPreview, { previewImages: [previewProps.previewImages[0]] }),
+                React.createElement(DocumentCard_1.DocumentCardDetails, null,
+                    React.createElement(DocumentCard_1.DocumentCardTitle, { title: "Revenue stream proposal fiscal year 2016 version02.pptx", shouldTruncate: true }),
+                    React.createElement(DocumentCard_1.DocumentCardActivity, { activity: "Created a few minutes ago", people: [people[1]] }))),
+            React.createElement(DocumentCard_1.DocumentCard, { type: DocumentCard_1.DocumentCardType.compact, onClickHref: "http://bing.com" },
+                React.createElement(DocumentCard_1.DocumentCardPreview, tslib_1.__assign({}, previewProps)),
+                React.createElement(DocumentCard_1.DocumentCardDetails, null,
+                    React.createElement(DocumentCard_1.DocumentCardTitle, { title: "4 files were uploaded", shouldTruncate: true }),
+                    React.createElement(DocumentCard_1.DocumentCardActivity, { activity: "Created a few minutes ago", people: [people[0]] }))),
+            React.createElement(DocumentCard_1.DocumentCard, { type: DocumentCard_1.DocumentCardType.compact, onClickHref: "http://bing.com" },
+                React.createElement(DocumentCard_1.DocumentCardPreview, tslib_1.__assign({}, previewPropsUsingIcon)),
+                React.createElement(DocumentCard_1.DocumentCardDetails, null,
+                    React.createElement(DocumentCard_1.DocumentCardTitle, { title: "View and share files", shouldTruncate: true }),
+                    React.createElement(DocumentCard_1.DocumentCardActivity, { activity: "Created a few minutes ago", people: [people[2]] }))),
+            React.createElement(DocumentCard_1.DocumentCard, { type: DocumentCard_1.DocumentCardType.compact, onClickHref: "http://bing.com" },
+                React.createElement(DocumentCard_1.DocumentCardPreview, tslib_1.__assign({}, previewOutlookUsingIcon)),
+                React.createElement(DocumentCard_1.DocumentCardDetails, null,
+                    React.createElement(DocumentCard_1.DocumentCardTitle, { title: "Conversation about takeaways from annual SharePoint conference", shouldTruncate: true }),
+                    React.createElement(DocumentCard_1.DocumentCardActivity, { activity: "Sent a few minutes ago", people: [people[3]] })))));
+    };
+    return DocumentCardCompactExample;
+}(React.PureComponent));
+exports.DocumentCardCompactExample = DocumentCardCompactExample;
+//# sourceMappingURL=DocumentCard.Compact.Example.js.map

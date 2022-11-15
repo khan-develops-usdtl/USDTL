@@ -1,0 +1,12 @@
+export declare const root = "root_18d80577";
+export declare const suggestionsItem = "suggestionsItem_18d80577";
+export declare const closeButton = "closeButton_18d80577";
+export declare const suggestionsItemIsSuggested = "suggestionsItemIsSuggested_18d80577";
+export declare const itemButton = "itemButton_18d80577";
+export declare const actionButton = "actionButton_18d80577";
+export declare const buttonSelected = "buttonSelected_18d80577";
+export declare const suggestionsTitle = "suggestionsTitle_18d80577";
+export declare const suggestionsContainer = "suggestionsContainer_18d80577";
+export declare const suggestionsNone = "suggestionsNone_18d80577";
+export declare const suggestionsSpinner = "suggestionsSpinner_18d80577";
+export declare const suggestionsAvailable = "suggestionsAvailable_18d80577";

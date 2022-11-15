@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "screening-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/screeningWp/ScreeningWpWebPart.js",
+          "manifest": "./src/webparts/screeningWp/ScreeningWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ScreeningWpWebPartStrings": "lib/webparts/screeningWp/loc/{locale}.js"
+  }
+}

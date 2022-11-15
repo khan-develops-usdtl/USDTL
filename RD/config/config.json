@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "rd-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/rdWp/RdWpWebPart.js",
+          "manifest": "./src/webparts/rdWp/RdWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RdWpWebPartStrings": "lib/webparts/rdWp/loc/{locale}.js"
+  }
+}

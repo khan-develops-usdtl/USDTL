@@ -1,0 +1,65 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.SalesTraining {
+    .gridContainer {
+        padding: 1em;
+    }
+    .gridSubContainer {
+        padding: 0 0 0.5em 0;
+        margin: 0 0 0.5em 0;
+        border-bottom: 1px solid #e1e1e1;
+    }
+    .gridSubContainer:last-child {
+        border-bottom: none;
+    }
+    .heading {
+        color: #1347a4;
+        padding: 0.625em 0.5em;
+        margin-bottom: 0.5em;
+        font-weight: 700;
+        border-bottom: 1px solid #1347a4;
+    }
+    .subHeading {
+        background-color: #1347a4;
+        color: white;
+        padding: 0.625em 0.625em;
+        margin-bottom: 0.5em;
+        font-weight: 550;
+    }
+    .paper {
+        padding: 0.5em;
+    }
+    .gridSubItem {
+        height: 15em;
+        padding: 10px 10px;
+        overflow-y: auto;
+    }
+    .fileName {
+        color: #1347a4 !important;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: 'pointer';
+    }
+    .createdDate {
+        color: #000 !important;
+        opacity: 0.7;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 0;
+    }
+    .thumbnail {
+        width: 100%;
+    }
+    .playButton {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -29px;
+        margin-top: -29px;
+        display: block;
+        font-size: 58px;
+        color: rgba(19, 71, 165, 0.5);
+        transition: color 0.15s ease;
+        z-index: 100;
+    }
+}

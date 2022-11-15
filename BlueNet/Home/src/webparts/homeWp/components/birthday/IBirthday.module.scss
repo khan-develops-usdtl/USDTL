@@ -1,0 +1,70 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+
+.birthdayWp {
+  .heading {
+    color: #1347a4;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: medium;
+    border-bottom: 1px solid #1347a4;
+  }
+
+  .container {
+    max-height: 430px;
+    padding: 0 0.5em;
+    overflow-y: auto;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    padding: 0.5em 0;
+        // border-bottom: 2px solid #e1e1e1;
+  }
+
+  .content:last-child {
+    border-bottom: 0px;
+  }
+
+  .formContainer {
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .birthdayEntryRequest {
+    text-align: center;
+    width: 70%;
+  }
+
+  .submitButton {
+    background-color: #1347a4;
+  }
+
+  .dateField {
+    font-size: 1em;
+    font-weight: 600;
+    margin: 1em 0 1em 0;
+  }
+
+  .name {
+    border-left: 2px solid #868686;
+    padding-left: 1em;
+    color: #000;
+    text-align: center;
+    opacity: 0.7;
+    font-size: 0.9em;
+    font-weight: 700;
+  }
+
+  .day {
+    text-align: center;
+    width: 2.5em;
+    color: #1347a4;
+    font-size: 1.4em;
+    font-weight: 900;
+  }
+}

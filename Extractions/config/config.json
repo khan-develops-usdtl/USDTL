@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "screening-extractions-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/screeningExtractionsWp/ScreeningExtractionsWpWebPart.js",
+          "manifest": "./src/webparts/screeningExtractionsWp/ScreeningExtractionsWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ScreeningExtractionsWpWebPartStrings": "lib/webparts/screeningExtractionsWp/loc/{locale}.js"
+  }
+}

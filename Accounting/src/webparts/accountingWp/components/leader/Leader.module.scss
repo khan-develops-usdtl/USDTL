@@ -1,0 +1,42 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.leader {
+    .heading {
+        color: #1347a4;
+        padding: 0.625em 0.375em;
+        font-weight: 700;
+        border-bottom: 0.0625em solid #1347a4;
+        margin-bottom: 0.625em;
+      }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 22.5em;
+        padding: 0.625em 0;
+        overflow-y: auto;
+        margin-bottom: 0.625em;
+    }
+    .title {
+        color: #000;
+        font-size: 1em;
+        font-weight: 700;
+        text-align: center;
+    }
+    .position {
+        color: #000;
+        font-size: 0.875em;
+        text-align: center;
+    }
+    .image {
+        display: block;
+        height: 17.5em;
+        object-fit: cover;
+        box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    .image:hover {
+        box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.2);
+    }
+}

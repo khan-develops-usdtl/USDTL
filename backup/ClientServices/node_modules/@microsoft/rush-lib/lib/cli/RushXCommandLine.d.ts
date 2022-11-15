@@ -1,0 +1,16 @@
+/**
+ * @internal
+ */
+export interface ILaunchRushXInternalOptions {
+    isManaged: boolean;
+    alreadyReportedNodeTooNewError?: boolean;
+}
+export declare class RushXCommandLine {
+    static launchRushX(launcherVersion: string, isManaged: boolean): void;
+    /**
+     * @internal
+     */
+    static _launchRushXInternal(launcherVersion: string, options: ILaunchRushXInternalOptions): void;
+    private static _showUsage;
+}
+//# sourceMappingURL=RushXCommandLine.d.ts.map

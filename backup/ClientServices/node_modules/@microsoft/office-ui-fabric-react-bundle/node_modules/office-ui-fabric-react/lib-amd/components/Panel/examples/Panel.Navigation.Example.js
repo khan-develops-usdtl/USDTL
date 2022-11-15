@@ -1,0 +1,26 @@
+define(["require", "exports", "react", "office-ui-fabric-react/lib/Button", "office-ui-fabric-react/lib/Panel", "office-ui-fabric-react/lib/SearchBox", "@uifabric/react-hooks"], function (require, exports, React, Button_1, Panel_1, SearchBox_1, react_hooks_1) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    var explanation = 'This panel has custom content in the navigation region (the part at the top which normally ' +
+        'contains the close button). If the custom content replaces the close button, be sure to provide ' +
+        'some other obvious way for users to close the panel.';
+    var searchboxStyles = { root: { margin: '5px', height: 'auto', width: '100%' } };
+    exports.PanelNavigationExample = function () {
+        var _a = React.useState(false), isOpen = _a[0], setIsOpen = _a[1];
+        var openPanel = react_hooks_1.useConstCallback(function () { return setIsOpen(true); });
+        var dismissPanel = react_hooks_1.useConstCallback(function () { return setIsOpen(false); });
+        var onRenderNavigationContent = react_hooks_1.useConstCallback(function (props, defaultRender) { return (React.createElement(React.Fragment, null,
+            React.createElement(SearchBox_1.SearchBox, { placeholder: "Search here...", styles: searchboxStyles, ariaLabel: "Sample search box. Does not actually search anything." }),
+            // If you don't use defaultRender, be sure to provide some other way to close the panel.
+            defaultRender(props))); });
+        return (React.createElement("div", null,
+            explanation,
+            React.createElement("br", null),
+            React.createElement("br", null),
+            React.createElement(Button_1.DefaultButton, { text: "Open panel", onClick: openPanel }),
+            React.createElement(Panel_1.Panel, { headerText: "Panel with custom navigation content", onRenderNavigationContent: onRenderNavigationContent, isOpen: isOpen, onDismiss: dismissPanel, closeButtonAriaLabel: "Close" },
+                React.createElement("div", null,
+                    React.createElement("p", null, explanation)))));
+    };
+});
+//# sourceMappingURL=Panel.Navigation.Example.js.map

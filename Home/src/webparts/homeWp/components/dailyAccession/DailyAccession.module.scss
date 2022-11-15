@@ -1,0 +1,56 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.dailyAccession {
+    .heading {
+        color: #1347a4;
+        padding: 0.625em 0.375em;
+        font-weight: 700;
+        font-size: medium;
+        border-bottom: 0.0625em solid #1347a4;
+        margin-bottom: 0.625em;
+    }
+    .container {
+        height: 430px;
+        padding: 0 0.5em;
+        overflow-y: auto;
+    }
+    .gridContainer {
+        padding: 0.5em 0;
+        border-bottom: 2px solid #e1e1e1;
+    }
+    .gridContainer:last-child {
+        border-bottom: 0px;
+    }
+    .gridItemFileIcon {
+        display: grid;
+        place-items: center;
+    }
+    .gridItemContent {
+        display: grid;
+        align-items: center;
+    }
+    .fileHeading {
+        color: #1347a4;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 0;
+    }
+    .jobPostingsDocLinkDiv {
+        text-align: center;
+    }
+    .modifiedDate {
+        color: #000;
+        opacity: 0.7;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 0;
+    }
+    .fileLink {
+        color: #000;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .fileLink:active, .fileLink:hover, .fileLink:focus, .fileLink:visited {
+        color: #000;
+    }
+}

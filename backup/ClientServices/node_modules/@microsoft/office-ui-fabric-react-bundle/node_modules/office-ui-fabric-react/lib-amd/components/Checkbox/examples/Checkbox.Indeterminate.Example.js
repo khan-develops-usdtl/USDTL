@@ -1,0 +1,27 @@
+define(["require", "exports", "react", "office-ui-fabric-react/lib/Checkbox", "office-ui-fabric-react/lib/Stack"], function (require, exports, React, Checkbox_1, Stack_1) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    // Used to add spacing between example checkboxes
+    var stackTokens = { childrenGap: 10 };
+    exports.CheckboxIndeterminateExample = function () {
+        // Only used for the controlled checkbox (the last one)
+        var _a = React.useState(true), isIndeterminate = _a[0], setIsIndeterminate = _a[1];
+        var _b = React.useState(false), isChecked = _b[0], setIsChecked = _b[1];
+        var onChange = React.useCallback(function (ev, newChecked) {
+            if (isIndeterminate) {
+                // If the checkbox was indeterminate, the first click should remove the indeterminate state
+                // without affecting the checked state
+                setIsIndeterminate(false);
+            }
+            else {
+                setIsChecked(newChecked);
+            }
+        }, [isIndeterminate]);
+        return (React.createElement(Stack_1.Stack, { tokens: stackTokens },
+            React.createElement(Checkbox_1.Checkbox, { label: "Indeterminate checkbox (uncontrolled)", defaultIndeterminate: true }),
+            React.createElement(Checkbox_1.Checkbox, { label: "Indeterminate checkbox which defaults to true when clicked (uncontrolled)", defaultIndeterminate: true, defaultChecked: true }),
+            React.createElement(Checkbox_1.Checkbox, { label: "Disabled indeterminate checkbox", disabled: true, defaultIndeterminate: true }),
+            React.createElement(Checkbox_1.Checkbox, { label: "Indeterminate checkbox (controlled)", indeterminate: isIndeterminate, checked: isChecked, onChange: onChange })));
+    };
+});
+//# sourceMappingURL=Checkbox.Indeterminate.Example.js.map

@@ -1,0 +1,43 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+
+.quickLinksWp {
+  .webpartDivHeading {
+    color: #1347a4;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: medium;
+    border-bottom: 1px solid #1347a4;
+  }
+  .content {
+    height: 130px;
+    background-color: #1347a4;
+    opacity: 1;
+    cursor: pointer;
+  }
+  .content i {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .content .text {
+    opacity: 0;
+    color: white;
+    font-size: 18px;
+    margin-top: -90px;
+    text-align: center;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .content:hover i {
+    opacity: 0;
+  }
+  .content:hover .text {
+    opacity: 1;
+  }
+}

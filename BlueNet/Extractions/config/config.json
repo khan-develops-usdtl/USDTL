@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "extractions-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/extractionsWp/ExtractionsWpWebPart.js",
+          "manifest": "./src/webparts/extractionsWp/ExtractionsWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ExtractionsWpWebPartStrings": "lib/webparts/extractionsWp/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

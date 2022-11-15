@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "science-club-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/scienceClubWp/ScienceClubWpWebPart.js",
+          "manifest": "./src/webparts/scienceClubWp/ScienceClubWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ScienceClubWpWebPartStrings": "lib/webparts/scienceClubWp/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

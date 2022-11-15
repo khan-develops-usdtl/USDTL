@@ -1,0 +1,1 @@
+{"version":3,"file":"NpmPackageManager.d.ts","sourceRoot":"","sources":["../../../src/api/packageManager/NpmPackageManager.ts"],"names":[],"mappings":"AAIA,OAAO,EAAE,cAAc,EAAE,MAAM,kBAAkB,CAAC;AAElD;;GAEG;AACH,qBAAa,iBAAkB,SAAQ,cAAc;IACnD,gBAAgB;gBACG,OAAO,EAAE,MAAM;CAKnC"}

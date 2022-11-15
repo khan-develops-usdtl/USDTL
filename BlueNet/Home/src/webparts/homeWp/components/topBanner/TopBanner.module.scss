@@ -1,0 +1,64 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';  
+  
+.topBanner {
+  .container {
+    height: 31em;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+    height: 31em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 5px;
+  }
+  .title {
+    color: #000;
+    text-align: center;
+    opacity: 0.7;
+    font-size: 1.25em;
+    font-weight: 700;
+    padding: 0;
+  }
+  .rightArrow {
+    position: absolute;
+    right: 0.1em;
+    font-size: 1.5em;
+    color: #1347a4;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  .leftArrow {
+    position: absolute;
+    left: 0.1em;
+    font-size: 1.5em;
+    color: #1347a4;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  .slide {
+    opacity: 0;
+    transition: 2s ease;
+  }
+  .active {
+    opacity: 1;
+    transition: opacity 1s ease-in;
+    transform: scale(0.9);
+  }
+
+
+  .carouselContent { 
+    height: 28em !important;
+  }  
+
+  .carouselButtonsContainer button {  
+    min-width: 16px !important;  
+  } 
+}
+
+
+ 

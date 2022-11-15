@@ -1,0 +1,71 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+
+.SalesTraining {
+  .container {
+    height: 20em;
+    overflow-y: auto;
+  }
+  .subContainer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0.5em 0.5em;
+  }
+  .subFilesContainer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0.5em 0 0.5em 2em;
+  }
+  .heading {
+    color: #1347a4;
+    padding: 0.625em 0.5em;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+    border-bottom: 1px solid #1347a4;
+  }
+  .subHeading {
+    background-color: #1347a4;
+    color: white;
+    padding: 0.625em 0.625em;
+    margin-bottom: 0.5em;
+    font-weight: 550;
+  }
+  .paper {
+    padding: 0.5em;
+  }
+  .folderName {
+    color: #1347a4 !important;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: "pointer";
+  }
+  .fileName {
+    color: #1347a4 !important;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: "pointer";
+  }
+  .createdDate {
+    color: #000 !important;
+    opacity: 0.7;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0;
+  }
+  .thumbnail {
+    width: 100%;
+  }
+  .playButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -29px;
+    margin-top: -29px;
+    display: block;
+    font-size: 58px;
+    color: rgba(19, 71, 165, 0.5);
+    transition: color 0.15s ease;
+    z-index: 100;
+  }
+}

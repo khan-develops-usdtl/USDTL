@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "receiving-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/receivingWp/ReceivingWpWebPart.js",
+          "manifest": "./src/webparts/receivingWp/ReceivingWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReceivingWpWebPartStrings": "lib/webparts/receivingWp/loc/{locale}.js"
+  }
+}

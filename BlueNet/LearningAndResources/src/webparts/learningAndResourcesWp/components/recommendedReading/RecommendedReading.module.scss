@@ -1,0 +1,94 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.recommendedReadingWp {
+    .readingHeading {
+        color: #2f3643;
+        padding: 10px 5px;
+        margin-bottom: 10px;
+        font-weight: 700;
+        border-bottom: 1px solid #2f3643;
+    }
+    .button {
+        margin: 0.2em 0.2em;
+        min-width: 3em !important;
+        padding: 6px 12px 9px 12px;
+        background: #1347a4;
+        color: #fff;
+        line-height: 1;
+    }
+    .button:hover, .button:active {
+        background: #24b28f;
+        color: #fff;
+    }
+    .readingLink {
+        color: #1347a4;
+        text-decoration: none;
+    }
+    .readingLink:hover, .readingLink:focus, .readingLink:visited {
+        color: #1347a4;
+    }
+    .readingDescription {
+        font-size: 14px;
+        padding: 0;
+        line-height: 21px;
+        text-align: justify;
+    }
+    .readingDate {
+        color: #000;
+        opacity: 0.7;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 5px 0;
+    }
+    .selectedReadingTitle {
+        color: #1347a4;
+        text-decoration: none;
+    }
+    .submitButton {
+        background-color: #1347a4;
+        padding: 6px 12px;
+        color: #fff;
+        float: right;
+        border-radius: 4px;
+        border: 1px solid transparent;
+        cursor: pointer;
+    }
+    .submitButton:hover {
+        color: #fff;
+    }
+    .validation {
+        color: red;
+        margin-right: 1px;
+        font-weight: bold;
+        font-size: medium;
+    }
+    .reviewTitle {
+        padding: 5px 0;
+        font-weight: bold;
+        font-size: 16px;
+        border-bottom: 1px solid #dddddd;
+    }
+    .userReviewImage {
+        height: 4em;
+        border-radius: 10px;
+    }
+    .userReviewTitle {
+        color: #1347a4;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 0;
+    }
+    .userReviewComment {
+        font-size: 14px;
+        padding: 0;
+        line-height: 21px;
+        text-align: justify;
+    }
+    .userReviewDate {
+        color: #000;
+        opacity: 0.7;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 5px 0;
+    }
+}

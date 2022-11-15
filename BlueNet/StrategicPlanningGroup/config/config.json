@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "strategic-planning-group-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/strategicPlanningGroupWp/StrategicPlanningGroupWpWebPart.js",
+          "manifest": "./src/webparts/strategicPlanningGroupWp/StrategicPlanningGroupWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "StrategicPlanningGroupWpWebPartStrings": "lib/webparts/strategicPlanningGroupWp/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

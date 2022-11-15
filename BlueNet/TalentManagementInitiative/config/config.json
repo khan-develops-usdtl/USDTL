@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "wp-talent-management-initiative-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpTalentManagementInitiative/WpTalentManagementInitiativeWebPart.js",
+          "manifest": "./src/webparts/wpTalentManagementInitiative/WpTalentManagementInitiativeWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WpTalentManagementInitiativeWebPartStrings": "lib/webparts/wpTalentManagementInitiative/loc/{locale}.js"
+  }
+}

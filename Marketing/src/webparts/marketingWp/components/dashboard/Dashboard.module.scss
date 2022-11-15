@@ -1,0 +1,222 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.MarketingWp {
+.toolbarGridContainer {
+    background-color: #1347a4;
+    padding: 0.5em 1em;
+    margin: 1.625em 0 0.625em 0;
+}
+.searchGridContainer {
+    border: 2px solid #e1e1e1;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.paper {
+    padding: 0.5em;
+}
+.formInput {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.formSubmitButton {
+    width: 25%;
+    background-color: #1347a4;
+    padding: 6px 12px;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+    transition-duration: 0.4s;
+    }
+.formSubmitButton:hover {
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.24),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.formSubmitButton:focus, .formSubmitButton:active {
+    outline: none;
+    box-shadow: 0 0 0 1px darkgray;
+}
+.formDiv {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    }
+.heading {
+    color: #1347a4;
+    padding: 0.625em 0.375em;
+    font-weight: 700;
+    border-bottom: 0.0625em solid #1347a4;
+    margin-bottom: 0.625em;
+    }
+.toolbarDelete {
+    padding-top: 0.4em;
+    display: block;
+}
+.paginationDiv {
+    display: flex;
+}
+.newRequestButtonDiv {
+    background: rgb;
+}
+.toolbarSelection {
+    background-color: #F8F8F8;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    padding: 8px 8px;
+    text-align: center;
+    display: inline-block;
+    font-size: medium;
+    cursor: pointer;
+    box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+    transition-duration: 0.4s;
+}
+.toolbarSelection:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.toolbarSelection:focus, .toolbarButton:active {
+    outline: none;
+    box-shadow: 0 0 0 3px darkgray;
+}
+.toolbarButton {
+    background-color: #e9e8e8;
+    padding: 6px 12px;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+    transition-duration: 0.4s;
+}
+.toolbarButton:hover {
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.24),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.toolbarButton:focus, .toolbarButton:active {
+    outline: none;
+    box-shadow: 0 0 0 1px darkgray;
+}
+.paginationButton {
+    min-width: none !important;
+    background-color: white;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    padding: 8px 2px;
+    text-align: center;
+    display: inline-block;
+    font-size: medium;
+    cursor: pointer;
+    box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+    transition-duration: 0.4s;
+}
+.paginationButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.paginationButton:focus, .toolbarButton:active {
+    outline: none;
+    box-shadow: 0 0 0 3px darkgray;
+}
+.pageNumber {
+    background-color: #F8F8F8;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    padding: 8px 8px;
+    text-align: center;
+    display: inline-block;
+    font-size: medium;
+    box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+}
+.search {
+    padding: 6px 12px;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+.serach:active {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.search:hover, .search:focus {
+    outline:none;
+    border: none;
+    box-shadow: none;
+}
+.selection {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    box-shadow: none;
+}
+.selection:hover, .selection:active, .selection:focus {
+    outline:none;
+    border: none;
+    box-shadow: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+tr:hover {
+    background: #eee;
+}
+th {
+    background: rgb(182, 182, 182);
+    font-size: medium;
+    padding: 15px 20px;
+}
+td, th {
+    border-bottom: 1px solid #ccc;
+    text-align: right;
+    padding: 15px 20px;
+    font-size: small;
+}
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    td:nth-of-type(1) {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    tr { border: 1px solid #ccc;}
+    td {
+        border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+    }
+    td:before {
+        position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+    }
+    td:nth-of-type(2):before { content: "ID"; }
+	td:nth-of-type(3):before { content: "Subject"; }
+	td:nth-of-type(4):before { content: "Created On"; }
+	td:nth-of-type(5):before { content: "Assigned To"; }
+	td:nth-of-type(6):before { content: "Created By"; }
+	td:nth-of-type(7):before { content: "Due By"; }
+	td:nth-of-type(8):before { content: "Status"; }
+	td:nth-of-type(9):before { content: "Priority"; }
+	td:nth-of-type(10):before { content: "Location"; }
+	td:nth-of-type(11):before { content: "Category"; }
+	td:nth-of-type(12):before { content: "Description"; }
+}
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "client-services-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/clientServicesWp/ClientServicesWpWebPart.js",
+          "manifest": "./src/webparts/clientServicesWp/ClientServicesWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ClientServicesWpWebPartStrings": "lib/webparts/clientServicesWp/loc/{locale}.js"
+  }
+}

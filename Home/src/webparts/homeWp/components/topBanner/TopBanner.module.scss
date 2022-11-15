@@ -1,0 +1,14 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';  
+  
+.topBanner {
+  .carouselContent { 
+    height: 28em !important;  
+    padding: 0;
+  }  
+  .carouselButtonsContainer button {  
+    min-width: 32px !important;  
+  }  
+} 
+
+
+ 

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "wp-recognition-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpRecognition/WpRecognitionWebPart.js",
+          "manifest": "./src/webparts/wpRecognition/WpRecognitionWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WpRecognitionWebPartStrings": "lib/webparts/wpRecognition/loc/{locale}.js"
+  }
+}

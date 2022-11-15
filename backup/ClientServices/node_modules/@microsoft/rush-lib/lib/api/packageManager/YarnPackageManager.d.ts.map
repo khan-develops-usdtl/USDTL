@@ -1,0 +1,1 @@
+{"version":3,"file":"YarnPackageManager.d.ts","sourceRoot":"","sources":["../../../src/api/packageManager/YarnPackageManager.ts"],"names":[],"mappings":"AAIA,OAAO,EAAE,cAAc,EAAE,MAAM,kBAAkB,CAAC;AAElD;;GAEG;AACH,qBAAa,kBAAmB,SAAQ,cAAc;IACpD,gBAAgB;gBACG,OAAO,EAAE,MAAM;CAKnC"}

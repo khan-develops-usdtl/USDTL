@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "wp-initiatives-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpInitiatives/WpInitiativesWebPart.js",
+          "manifest": "./src/webparts/wpInitiatives/WpInitiativesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WpInitiativesWebPartStrings": "lib/webparts/wpInitiatives/loc/{locale}.js"
+  }
+}

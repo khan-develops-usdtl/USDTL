@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "wp-science-club-internship-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpScienceClubInternship/WpScienceClubInternshipWebPart.js",
+          "manifest": "./src/webparts/wpScienceClubInternship/WpScienceClubInternshipWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WpScienceClubInternshipWebPartStrings": "lib/webparts/wpScienceClubInternship/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,38 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.calendarWp {
+    .container {
+        height: 40em;
+        overflow-y: auto;
+    }
+    .heading {
+        color: #1347a4;
+        padding: 10px 5px;
+        margin-bottom: 10px;
+        font-weight: 700;
+        border-bottom: 1px solid #1347a4;
+    }
+    .innerDiv {
+        height: 430px;
+        padding: 0px 5px;
+        overflow-y: auto;
+    }
+    button {
+        padding: 2px 5px 2px 5px;
+        background-color: #1347a4;
+    }
+    button:hover, button:active {
+        background-color: #1347a4;
+        color: white;
+    }
+    .fc .fc-toolbar h2 {
+        font-size: 1em !important;
+        color: #1347a4;
+    }
+    .fc .fc-button {
+        background-color: #1347a4;
+        font-size: 0.6em;
+    }
+}
+
+

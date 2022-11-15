@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "learning-and-resources-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/learningAndResourcesWp/LearningAndResourcesWpWebPart.js",
+          "manifest": "./src/webparts/learningAndResourcesWp/LearningAndResourcesWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "LearningAndResourcesWpWebPartStrings": "lib/webparts/learningAndResourcesWp/loc/{locale}.js"
+  }
+}

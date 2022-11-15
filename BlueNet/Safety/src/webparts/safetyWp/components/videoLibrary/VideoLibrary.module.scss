@@ -1,0 +1,50 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.videoLibraryWp {
+    .videoLibraryHeading {
+        color: #2f3643;
+        padding: 10px 5px;
+        margin-bottom: 10px;
+        font-weight: 700;
+        border-bottom: 1px solid #2f3643;
+    }
+    .button {
+        margin: 0.2em 0.2em;
+        min-width: 3em !important;
+        padding: 6px 12px 9px 12px;
+        background: #1347a4;
+        color: #fff;
+        line-height: 1;
+    }
+    .button:hover, .button:active {
+        background: #24b28f;
+        color: #fff;
+    }
+    .videoImage {
+        width: 95%;
+        overflow: hidden;
+        margin: 0 0 10px 0;
+        border: 5px solid #eeeeee;
+    }
+    .videoLink {
+        color: #1347a4;
+        text-decoration: none;
+        transition: color 0.15s ease;
+        position: relative;
+    }
+    .playButton {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        margin-left: -29px;
+        display: block;
+        font-size: 58px;
+        color: rgba(19, 71, 165, 0.5);
+        transition: color 0.15s ease;
+        z-index: 100;
+    }
+    .videoTitle {
+        font-weight: 550;
+        color: #2f3643;
+    }
+}

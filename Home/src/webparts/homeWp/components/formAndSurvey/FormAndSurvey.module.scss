@@ -1,0 +1,52 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.formAndSurvey {
+    .heading {
+        color: #1347a4;
+        padding: 0.625em 0.375em;
+        font-weight: 700;
+        border-bottom: 0.0625em solid #1347a4;
+        margin-bottom: 0.625em;
+      }
+      .link {
+        color: #000;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      .formAndSurveyHeading {
+        color: #1347a4;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 0;
+      }
+      .container {
+        height: 26.25em;
+        overflow-y:'auto';
+      }
+      .item {
+        width: 100%;
+        padding: 0.5em 0;
+      }
+      .chip {
+        width: 100%;
+        font-size: medium;
+        font-weight: 600;
+      }
+      .box {
+        font-size: medium;
+        font-weight: 600;
+        color: #ffffff;
+      }
+      .date {
+        font-size: medium;
+        font-weight: 600;
+        color: #ffffff;
+      }
+      .typography {
+        font-size: medium;
+        font-weight: 600;
+      }
+      .MuiTypography-root {
+        color: white;
+      }
+}

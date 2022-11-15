@@ -1,0 +1,49 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+
+.filesComponent {
+
+  .heading {
+    background-color: #1347a4;
+    color: white;
+    padding: 0.625em 0.625em;
+    margin-bottom: 0.5em;
+    font-weight: 550;
+  }
+  .container {
+    height: 20em;
+    overflow-y: auto;
+  }
+  .subContainer {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    padding: 0.25em 1em;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .folderContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+  }
+  .folderName {
+    color: #1347a4 !important;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: "pointer";
+  }
+  .fileName {
+    color: #1347a4 !important;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: "pointer";
+  }
+  .createdDate {
+    color: #000 !important;
+    opacity: 0.7;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0;
+  }
+}

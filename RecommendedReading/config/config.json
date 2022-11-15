@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "recommended-reading-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/recommendedReadingWp/RecommendedReadingWpWebPart.js",
+          "manifest": "./src/webparts/recommendedReadingWp/RecommendedReadingWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RecommendedReadingWpWebPartStrings": "lib/webparts/recommendedReadingWp/loc/{locale}.js"
+  }
+}

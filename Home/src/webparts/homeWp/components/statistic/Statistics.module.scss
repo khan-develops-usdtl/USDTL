@@ -1,0 +1,72 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.mainHeading {
+    color: #1347a4;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    border-bottom: 1px solid #1347a4;
+}
+.container {
+    height: 385px;
+    padding: 0px 5px;
+    overflow-y: auto;
+}
+.searchDiv {
+    padding: 0px 15px 10px 15px;
+}
+.field {
+    width: 100%;
+    border: 1px solid #1347a4;
+    border-radius: 4px ;
+    position: relative;
+    background-color: rgba(255,255,255,0.3);
+    transition: 0.3s all;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    color: #1347a4;
+    font-weight: 500;
+}
+.content {
+    height: 133px;
+    background-color: #1347a4;
+    opacity: 1;
+    cursor: pointer;
+  }
+.content i {
+    opacity: 0;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    transition: opacity 0.5s ease-in-out;
+}
+.content .text {
+    color: white;
+    font-size: 18px;
+    margin-top: -70px;
+    text-align: center;
+    transition: opacity 0.5s ease-in-out;
+  }
+.content:hover i {
+    opacity: 1;
+}
+.content:hover .text {
+    opacity: 0;
+}
+.contentWithoutLink {
+    background-color: #1347a4;
+    height: 133px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contentWithoutLink .textWithoutLink {
+    color: white;
+    font-size: 18px;
+}
+  

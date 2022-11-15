@@ -1,0 +1,54 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+
+.documentsWp {
+  .heading {
+    color: #1347a4;
+    padding: 1em 0.5em;
+    margin-bottom: 1.5em;
+    font-weight: 700;
+    border-bottom: 1px solid #1347a4;
+  }
+  .subHeading {
+    background-color: #1347a4;
+    color: white;
+    padding: 0.625em 0.625em;
+    margin-bottom: 0.5em;
+    font-weight: 550;
+  }
+  .gridSubItem {
+    padding: 1em;
+    height: 49.2em;
+  }
+  .leftGridItem {
+    height: auto;
+  }
+  .rightGridItem {
+    max-height: 47em;
+    padding: 0.5em;
+    overflow-y: auto;
+  }
+  .gridSubContainer {
+    padding: 0 0 0.5em 0;
+    margin: 0 0 0.5em 0;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  .gridSubContainer:last-child {
+    border-bottom: none;
+  }
+  .paper {
+    padding: 0.5em;
+  }
+  .fileName {
+    color: #1347a4 !important;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: "pointer";
+  }
+  .createdDate {
+    color: #000 !important;
+    opacity: 0.7;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0;
+  }
+}
